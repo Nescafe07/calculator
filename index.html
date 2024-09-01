@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="./src/scripts.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="visor" readonly>
+        <div class="teclado">
+            <button class="btnlimpar" onclick="limpar()">C</button>
+            <button class="btnigual" onclick="calcular()">=</button>
+            <button class="btndiv" onclick="addvisor('/')">/</button>
+            <button class="btnmulti" onclick="addvisor('*')">X</button>
+            <button class="btn7" onclick="addvisor('7')">7</button>
+            <button class="btn8" onclick="addvisor('8')">8</button>
+            <button class="btn9" onclick="addvisor('9')">9</button>
+            <button class="btnmenos" onclick="addvisor('-')">-</button>
+            <button class="btn4" onclick="addvisor('4')">4</button>
+            <button class="btn5" onclick="addvisor('5')">5</button>
+            <button class="btn6" onclick="addvisor('6')">6</button>
+            <button class="btnmais" onclick="addvisor('+')">+</button>
+            <button class="btn1" onclick="addvisor('1')">1</button>
+            <button class="btn2" onclick="addvisor('2')">2</button>
+            <button class="btn3" onclick="addvisor('3')">3</button>
+            <button class="btn0" onclick="addvisor('0')">0</button>
+        </div>
+    </div>
+</body>
+</html>

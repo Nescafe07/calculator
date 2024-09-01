@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey;
+    margin: 0;
+}
+.calculadora {
+    background-color: darkgrey;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#visor {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+}
+button {
+    font-size: 1.5em;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.btnlimpar {background-color: red;}
+.btnigual {background-color: red;}
+.btndiv {background-color: blue;}
+.btnmulti {background-color: blue;}
+.btn7 {background-color: green;}
+.btn8 {background-color: green;}
+.btn9 {background-color: green;}
+.btnmenos {background-color: blue;}
+.btn4 {background-color: green;}
+.btn5 {background-color: green;}
+.btn6 {background-color: green;}
+.btnmais {background-color: blue;}
+.btn1 {background-color: green;}
+.btn2 {background-color: green;}
+.btn3 {background-color: green;}
+.btn0 {background-color: green;}
